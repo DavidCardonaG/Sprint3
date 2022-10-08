@@ -1,0 +1,201 @@
+
+body {
+  margin: 0 auto;
+  background: white;
+}
+h1 {
+  color: #ffffff;
+  margin: 1rem 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+a {
+  color: #ffffff;
+  font-size:20px;
+  text-decoration: none;
+}
+.action{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bold;
+}
+.content > header div{
+    display: flex;
+    align-items:flex-end;
+    flex-direction:row;
+    margin: auto;
+    margin-left: 60rem;
+}
+a:hover{
+    text-decoration: underline;
+    color:rgb(237, 179, 71);
+}
+hr {
+  border: none;
+  border-top: 1px solid lightgray;
+}
+nav {
+  background: rgb(0, 0, 0);
+  display: flex;
+  align-items: center;
+  padding: 0 0.5rem;
+  height: 60px;
+}
+nav h1 {
+  flex: auto;
+  margin: 0;
+  font-size: 2rem;
+  font-family:Arial, Helvetica, sans-serif;
+}
+nav h1 a {
+  text-decoration: none;
+  padding: 0.25rem 0.5rem;
+}
+nav ul {
+  display: flex;
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a,
+nav ul li span,
+header .action {
+  display: block;
+  padding: 0.5rem;
+}
+.content {
+  padding: 0 1rem 1rem;
+}
+.content > header {
+  border-bottom: 1px solid rgb(14, 11, 11);
+  display: flex;
+  align-items: flex-end;
+}
+.content > header h1 {
+  flex: auto;
+  margin: 1rem 0 0.25rem 0;
+}
+.content > header h2 {
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.flash {
+  width:95%;
+  height:50px;
+  background-color:lightgray;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 1em 0;
+  padding: 1em;
+  color:rgb(237, 179, 71);
+  font-size:28px;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+}
+.post > header {
+  display: flex;
+  align-items: flex-end;
+  font-size: 0.85em;
+}
+.post > header > div:first-of-type {
+  flex: auto;
+}
+.post > header h1 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+.post .about {
+  color: slategray;
+  font-style: italic;
+}
+.post .body {
+  white-space: pre-line;
+}
+.content:last-child {
+  margin-bottom: 0;
+}
+.content form {
+  margin: auto;
+  margin-top:1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 350px;
+  border: 2px solid lightgray;
+  box-shadow: 10px 10px 10px rgb(255, 140, 8);
+}
+.content label {
+    font-size:25px;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  font-family:'Times New Roman', Times, serif;
+  margin-top:1rem;
+}
+.content input{
+    width:80%;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+}
+.content textarea {
+  resize: vertical;
+  width: 80%;
+}
+input.danger {
+  color: #cc2f2e;
+}
+input[type="submit"] {
+    margin-top:1rem;
+  min-width: 10em;
+  font-family: 'Times New Roman', Times, serif;
+  background-color:black;
+  color:rgb(237, 179, 71);
+  font-style: italic;
+  cursor: pointer;
+  font-size:25px;
+  width: 70%;
+}
+
+#footer{
+    width:100%;
+    height: 130px;
+    background-color:black;
+    margin-top:2rem;
+}
+footer p{
+  color: white;
+  display: flex;
+  font-size:25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+}
+
+footer h3{
+  color: white;
+  font-size:25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  margin:0 auto;
+  margin-right: 2rem;
+
+}
+footer ul{
+  display:flex;
+  flex-direction:row;
+  justify-content: flex-end;
+  margin-right: 4rem;
+  padding-top:3rem;
+}
+footer img{
+  width:40px;
+  height:40px;
+  cursor:pointer;
+  flex-direction:column;
+}
+footer a,img{
+  display: flex;
+  flex-direction:column;
+  margin-right: 1rem;
+}
